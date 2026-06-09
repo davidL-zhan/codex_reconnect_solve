@@ -7,10 +7,10 @@ HTTPS_PROXY = "http://127.0.0.1:代理端口"
 
 如果不知道软件的端口号可以 打开**设置** -> 网络和Internet  —> 手动设置代理 ->编辑 就可以看到端口号了
 
-![image-20260609171640024](E:\LLM_job\codex_reconnect_solve\image-20260609171640024.png)
+![image-20260609171640024](image-20260609171640024)
 
 也可以将HTTP_PROXY 和 HTTPS_PROXY设置到环境变量 
 
-![image-20260609171518245](E:\LLM_job\codex_reconnect_solve\image-20260609171518245.png)
+![image-20260609171518245](image-20260609171518245)
 
 然后重启codex 就解决了
