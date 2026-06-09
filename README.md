@@ -1,0 +1,16 @@
+将.env 文件中放到C:\Users\用户名\\.codex 文件夹中  将代理端口 换成 代理软件的端口 一般是7980
+
+```env
+HTTP_PROXY = "http://127.0.0.1:代理端口"
+HTTPS_PROXY = "http://127.0.0.1:代理端口"
+```
+
+如果不知道软件的端口号可以 打开**设置** -> 网络和Internet  —> 手动设置代理 ->编辑 就可以看到端口号了
+
+![image-20260609171640024](C:\Users\David\AppData\Roaming\Typora\typora-user-images\image-20260609171640024.png)
+
+也可以将HTTP_PROXY 和 HTTPS_PROXY设置到环境变量 
+
+![image-20260609171518245](C:\Users\David\AppData\Roaming\Typora\typora-user-images\image-20260609171518245.png)
+
+然后重启codex 就解决了
